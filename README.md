@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust related to unsafe code and raw pointers.  The `bug.rs` file contains code that exhibits undefined behavior due to modifying a memory location after the vector's lifetime ends.  The `bugSolution.rs` file presents a corrected version that avoids this issue using safe Rust techniques.
